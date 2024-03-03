@@ -3,7 +3,7 @@ import cv2
 from PIL import Image
 from moviepy.editor import VideoFileClip
 from tensorflow import keras
-model = keras.models.load_model(r"C:\Users\Dell\Desktop\EEE\Projects\SCT\model.h5")
+model = keras.models.load_model(r"model.h5")//add your file path
 class Lanes():
   def __init__(self):
     self.recent_fit=[]
