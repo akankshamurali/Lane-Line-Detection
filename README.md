@@ -10,7 +10,7 @@ Basic region-of-interest masking
 Works directly on video
 Both lanes are drawn in the same color
 
-2.  Enhanced Lane Detection
+2. Enhanced Lane Detection
 File: lane_line_detectionv2.py
 Adds:
 Color-coded lanes (Left = Red, Right = Green)
